@@ -19,14 +19,14 @@ body {
   .banner .card .heading {
     color: 	#35eea4;
     font-family: "Playfair Display", serif;
-    font-size: 54px;
+    font-size: 4vw;
     font-weight: 700;
     margin-bottom: 5px;
     padding: 40px; }
   .banner .card .sub-heading {
     color: #35eea4;
     font-family: "Playfair Display", serif;
-    font-size: 21px;
+    font-size: 2vw;
     margin: 0;
     padding: 0 30px 30px; }
     .banner .card .sub-heading button {
@@ -35,7 +35,7 @@ body {
       border-radius: 5px;
       color: #663399;
       font-family: "Istok Web", sans-serif;
-      font-size: 16px;
+      font-size: 1vw;
       letter-spacing: 8px;
       margin-top: 20px;
       padding: 10px;
@@ -78,6 +78,11 @@ body {
 		width: 60vw;
 	}
 }	
-	
+@media (max-width: 600px) {
+  .container{
+    width: 100%;
+    height: auto;
+  }
+}	
 
 
