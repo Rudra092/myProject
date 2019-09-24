@@ -46,9 +46,10 @@ body {
       box-shadow: 0 3px 20px 0 #FFF5EE; }
 
 .row {
-  display: block;
-
-  margin-top: 30px; }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;  }
 
   .row .my-image {
     border: 1px solid #35eea4;
@@ -59,11 +60,14 @@ body {
   }
 
 .paragraph {
+
+   
   float: left;
   color: #2c2c2c;
   font-family: "Istok Web", sans-serif;
   font-size: 1.2vw;
-  width: 600px;
+ 
+
 }
 .icon-group {
   margin-top: 20px; }
